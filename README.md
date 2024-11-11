@@ -11,7 +11,21 @@
       "supertest": "^6.3.4"
     }
 ```
+
+#### Instalación de dependencias
+
+```bash
+npm i express pg jest supertest
+```
+
 # TESTING
+
+#### Correr Test
+```bash
+npm run test
+```
+
+#### Pruebas a realizar
 
 1. Ruta GET
     1. ruta GET /cafes devuelve un status code 200 y el tipo de dato recibido es un arreglo con por lo menos 1 objeto.
@@ -26,7 +40,7 @@
     1. ruta PUT /cafes devuelve un status code 400 si intentas actualizar un café enviando un id en los parámetros que sea diferente al id dentro del payload.
 
 
-## Resumen Test
+## Resultados test
 
 |    Tests     |   Status   |
 | ------------ |:----------:|
