@@ -35,3 +35,8 @@
 | ruta POST    | passed     |
 | ruta PUT     | passed     |
 
+
+
+test imagen
+
+![This is an alt text.](/image/sample.webp "This is a sample image.")
